@@ -1,0 +1,51 @@
+body {
+  background: rgb(226, 243, 163);
+}
+h1 {
+  text-align: center;
+}
+/*
+   position: absolute;
+   position: fixed;
+   position: sticky;
+*/
+.caixa1 {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background: rgb(174, 214, 129);
+   left: 400px;
+}
+.caixa2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: rgb(174, 214, 129);
+  left: 650px;
+}
+.menuPrincipal {
+  position: absolute; 
+  background: rgb(174, 214, 129);
+  width: 100%;
+  height: 45px;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;}
+  li a:hover {
+    color: rgb(167, 255, 167);
+  }
