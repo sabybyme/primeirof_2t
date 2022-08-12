@@ -49,3 +49,17 @@ li a {
   li a:hover {
     color: rgb(167, 255, 167);
   }
+#image {
+  width: 30%;
+}
+.boxImage {
+  position: absolute;
+  width: 50%;
+  height: 300px;
+  top: 50px;
+  margin: 20px;
+  border-color: rgb(198, 218, 175);
+  border-width: 20px;
+  border-style: solid;
+padding: 20x;
+}
